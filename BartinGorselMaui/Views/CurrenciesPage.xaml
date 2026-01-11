@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BartinGorselMaui.Views.CurrenciesPage"
+             Title="Güncel Kurlar"
+             BackgroundColor="{AppThemeBinding Light={StaticResource PageBackgroundColor}, Dark={StaticResource PageBackgroundColorDark}}">
+
+    <Grid RowDefinitions="Auto, Auto, *, Auto" Padding="20" RowSpacing="10">
+
+        <!-- Sayfa başlığı -->
+        <Label Text="Döviz Kurları" FontSize="22" FontAttributes="Bold"
+               HorizontalOptions="Center" Grid.Row="0"
+               TextColor="{AppThemeBinding Light={StaticResource TextColor}, Dark={StaticResource TextColorDark}}"/>
+
+        <!-- Tablo başlıkları -->
+        <Border Grid.Row="1"
+                BackgroundColor="{AppThemeBinding Light=#2B3A67, Dark={StaticResource ButtonBackgroundDark}}"
+                Padding="10" StrokeShape="RoundRectangle 5">
+            <Grid ColumnDefinitions="2*, *, *, *, Auto">
+                <Label Text="Birim" FontAttributes="Bold" Grid.Column="0"
+                       TextColor="{AppThemeBinding Light=White, Dark={StaticResource TextColorDark}}"/>
+                <Label Text="Alış" FontAttributes="Bold" Grid.Column="1" HorizontalOptions="Center"
+                       TextColor="{AppThemeBinding Light=White, Dark={StaticResource TextColorDark}}"/>
+                <Label Text="Satış" FontAttributes="Bold" Grid.Column="2" HorizontalOptions="Center"
+                       TextColor="{AppThemeBinding Light=White, Dark={StaticResource TextColorDark}}"/>
+                <Label Text="Değişim" FontAttributes="Bold" Grid.Column="3" HorizontalOptions="Center"
+                       TextColor="{AppThemeBinding Light=White, Dark={StaticResource TextColorDark}}"/>
+                <Label Text="Yön" FontAttributes="Bold" Grid.Column="4" WidthRequest="30"
+                       TextColor="{AppThemeBinding Light=White, Dark={StaticResource TextColorDark}}"/>
+            </Grid>
+        </Border>
+
+        <!-- Veri listesi ve yükleniyor göstergesi -->
+        <Grid Grid.Row="2">
+            <CollectionView x:Name="RatesList">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid ColumnDefinitions="2*, *, *, *, Auto" Padding="10">
+                            <Label Text="{Binding Tur}" FontAttributes="Bold" Grid.Column="0"
+                                   TextColor="{AppThemeBinding Light={StaticResource TextColor}, Dark={StaticResource TextColorDark}}"/>
+                            <Label Text="{Binding Alis}" Grid.Column="1" HorizontalOptions="Center"
+                                   TextColor="{AppThemeBinding Light={StaticResource TextColor}, Dark={StaticResource TextColorDark}}"/>
+                            <Label Text="{Binding Satis}" Grid.Column="2" HorizontalOptions="Center"
+                                   TextColor="{AppThemeBinding Light={StaticResource TextColor}, Dark={StaticResource TextColorDark}}"/>
+                            <Label Text="{Binding Fark}" Grid.Column="3" HorizontalOptions="Center"
+                                   TextColor="{AppThemeBinding Light={StaticResource TextColor}, Dark={StaticResource TextColorDark}}"/>
+
+                            <!-- Yön oku: renkli gösterim -->
+                            <Label Text="{Binding Yon}" Grid.Column="4" FontSize="20" HorizontalOptions="Center">
+                                <Label.Triggers>
+                                    <DataTrigger TargetType="Label" Binding="{Binding Yon}" Value="↑">
+                                        <Setter Property="TextColor" Value="Green"/>
+                                    </DataTrigger>
+                                    <DataTrigger TargetType="Label" Binding="{Binding Yon}" Value="↓">
+                                        <Setter Property="TextColor" Value="Red"/>
+                                    </DataTrigger>
+                                </Label.Triggers>
+                            </Label>
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+            <!-- Yükleniyor göstergesi -->
+            <ActivityIndicator x:Name="Loader"
+                               IsRunning="False"
+                               IsVisible="False"
+                               Color="{AppThemeBinding Light=DeepPink, Dark={StaticResource TextColorDark}}"
+                               VerticalOptions="Center"
+                               HorizontalOptions="Center"
+                               Scale="2"/>
+        </Grid>
+
+        <!-- Güncelle butonu -->
+        <Button Grid.Row="3" Text="Güncelle"
+                Clicked="OnRefreshClicked"
+                BackgroundColor="{AppThemeBinding Light=LightPink, Dark={StaticResource ButtonBackgroundDark}}"
+                TextColor="{AppThemeBinding Light={StaticResource TextColor}, Dark={StaticResource TextColorDark}}"
+                HeightRequest="50"/>
+    </Grid>
+</ContentPage>
+
+

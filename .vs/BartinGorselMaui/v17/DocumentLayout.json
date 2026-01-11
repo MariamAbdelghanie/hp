@@ -1,0 +1,641 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\hp\\OneDrive\\Documents\\MY MAUI APP\\BartinGorselMaui\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0DB75D33-AC71-40B0-9057-809C8EEE241E}|BartinGorselMaui\\BartinGorselMaui.csproj|c:\\users\\hp\\onedrive\\documents\\my maui app\\bartingorselmaui\\bartingorselmaui\\views\\settingspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0DB75D33-AC71-40B0-9057-809C8EEE241E}|BartinGorselMaui\\BartinGorselMaui.csproj|solutionrelative:bartingorselmaui\\views\\settingspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DB75D33-AC71-40B0-9057-809C8EEE241E}|BartinGorselMaui\\BartinGorselMaui.csproj|c:\\users\\hp\\onedrive\\documents\\my maui app\\bartingorselmaui\\bartingorselmaui\\views\\addtodopage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DB75D33-AC71-40B0-9057-809C8EEE241E}|BartinGorselMaui\\BartinGorselMaui.csproj|solutionrelative:bartingorselmaui\\views\\addtodopage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DB75D33-AC71-40B0-9057-809C8EEE241E}|BartinGorselMaui\\BartinGorselMaui.csproj|c:\\users\\hp\\onedrive\\documents\\my maui app\\bartingorselmaui\\bartingorselmaui\\views\\addtodopage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0DB75D33-AC71-40B0-9057-809C8EEE241E}|BartinGorselMaui\\BartinGorselMaui.csproj|solutionrelative:bartingorselmaui\\views\\addtodopage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DB75D33-AC71-40B0-9057-809C8EEE241E}|BartinGorselMaui\\BartinGorselMaui.csproj|c:\\users\\hp\\onedrive\\documents\\my maui app\\bartingorselmaui\\bartingorselmaui\\views\\weatherpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0DB75D33-AC71-40B0-9057-809C8EEE241E}|BartinGorselMaui\\BartinGorselMaui.csproj|solutionrelative:bartingorselmaui\\views\\weatherpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DB75D33-AC71-40B0-9057-809C8EEE241E}|BartinGorselMaui\\BartinGorselMaui.csproj|c:\\users\\hp\\onedrive\\documents\\my maui app\\bartingorselmaui\\bartingorselmaui\\views\\newspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0DB75D33-AC71-40B0-9057-809C8EEE241E}|BartinGorselMaui\\BartinGorselMaui.csproj|solutionrelative:bartingorselmaui\\views\\newspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DB75D33-AC71-40B0-9057-809C8EEE241E}|BartinGorselMaui\\BartinGorselMaui.csproj|c:\\users\\hp\\onedrive\\documents\\my maui app\\bartingorselmaui\\bartingorselmaui\\views\\currenciespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DB75D33-AC71-40B0-9057-809C8EEE241E}|BartinGorselMaui\\BartinGorselMaui.csproj|solutionrelative:bartingorselmaui\\views\\currenciespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DB75D33-AC71-40B0-9057-809C8EEE241E}|BartinGorselMaui\\BartinGorselMaui.csproj|c:\\users\\hp\\onedrive\\documents\\my maui app\\bartingorselmaui\\bartingorselmaui\\views\\currenciespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0DB75D33-AC71-40B0-9057-809C8EEE241E}|BartinGorselMaui\\BartinGorselMaui.csproj|solutionrelative:bartingorselmaui\\views\\currenciespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DB75D33-AC71-40B0-9057-809C8EEE241E}|BartinGorselMaui\\BartinGorselMaui.csproj|c:\\users\\hp\\onedrive\\documents\\my maui app\\bartingorselmaui\\bartingorselmaui\\views\\registerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0DB75D33-AC71-40B0-9057-809C8EEE241E}|BartinGorselMaui\\BartinGorselMaui.csproj|solutionrelative:bartingorselmaui\\views\\registerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DB75D33-AC71-40B0-9057-809C8EEE241E}|BartinGorselMaui\\BartinGorselMaui.csproj|c:\\users\\hp\\onedrive\\documents\\my maui app\\bartingorselmaui\\bartingorselmaui\\views\\registerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DB75D33-AC71-40B0-9057-809C8EEE241E}|BartinGorselMaui\\BartinGorselMaui.csproj|solutionrelative:bartingorselmaui\\views\\registerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DB75D33-AC71-40B0-9057-809C8EEE241E}|BartinGorselMaui\\BartinGorselMaui.csproj|c:\\users\\hp\\onedrive\\documents\\my maui app\\bartingorselmaui\\bartingorselmaui\\views\\weatherpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DB75D33-AC71-40B0-9057-809C8EEE241E}|BartinGorselMaui\\BartinGorselMaui.csproj|solutionrelative:bartingorselmaui\\views\\weatherpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DB75D33-AC71-40B0-9057-809C8EEE241E}|BartinGorselMaui\\BartinGorselMaui.csproj|c:\\users\\hp\\onedrive\\documents\\my maui app\\bartingorselmaui\\bartingorselmaui\\services\\firebaseservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DB75D33-AC71-40B0-9057-809C8EEE241E}|BartinGorselMaui\\BartinGorselMaui.csproj|solutionrelative:bartingorselmaui\\services\\firebaseservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DB75D33-AC71-40B0-9057-809C8EEE241E}|BartinGorselMaui\\BartinGorselMaui.csproj|c:\\users\\hp\\onedrive\\documents\\my maui app\\bartingorselmaui\\bartingorselmaui\\services\\havadurumuservisi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DB75D33-AC71-40B0-9057-809C8EEE241E}|BartinGorselMaui\\BartinGorselMaui.csproj|solutionrelative:bartingorselmaui\\services\\havadurumuservisi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DB75D33-AC71-40B0-9057-809C8EEE241E}|BartinGorselMaui\\BartinGorselMaui.csproj|c:\\users\\hp\\onedrive\\documents\\my maui app\\bartingorselmaui\\bartingorselmaui\\views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0DB75D33-AC71-40B0-9057-809C8EEE241E}|BartinGorselMaui\\BartinGorselMaui.csproj|solutionrelative:bartingorselmaui\\views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DB75D33-AC71-40B0-9057-809C8EEE241E}|BartinGorselMaui\\BartinGorselMaui.csproj|c:\\users\\hp\\onedrive\\documents\\my maui app\\bartingorselmaui\\bartingorselmaui\\views\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DB75D33-AC71-40B0-9057-809C8EEE241E}|BartinGorselMaui\\BartinGorselMaui.csproj|solutionrelative:bartingorselmaui\\views\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DB75D33-AC71-40B0-9057-809C8EEE241E}|BartinGorselMaui\\BartinGorselMaui.csproj|c:\\users\\hp\\onedrive\\documents\\my maui app\\bartingorselmaui\\bartingorselmaui\\services\\newsservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DB75D33-AC71-40B0-9057-809C8EEE241E}|BartinGorselMaui\\BartinGorselMaui.csproj|solutionrelative:bartingorselmaui\\services\\newsservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DB75D33-AC71-40B0-9057-809C8EEE241E}|BartinGorselMaui\\BartinGorselMaui.csproj|c:\\users\\hp\\onedrive\\documents\\my maui app\\bartingorselmaui\\bartingorselmaui\\services\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DB75D33-AC71-40B0-9057-809C8EEE241E}|BartinGorselMaui\\BartinGorselMaui.csproj|solutionrelative:bartingorselmaui\\services\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DB75D33-AC71-40B0-9057-809C8EEE241E}|BartinGorselMaui\\BartinGorselMaui.csproj|c:\\users\\hp\\onedrive\\documents\\my maui app\\bartingorselmaui\\bartingorselmaui\\services\\auth\\firebaseauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DB75D33-AC71-40B0-9057-809C8EEE241E}|BartinGorselMaui\\BartinGorselMaui.csproj|solutionrelative:bartingorselmaui\\services\\auth\\firebaseauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DB75D33-AC71-40B0-9057-809C8EEE241E}|BartinGorselMaui\\BartinGorselMaui.csproj|c:\\users\\hp\\onedrive\\documents\\my maui app\\bartingorselmaui\\bartingorselmaui\\views\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0DB75D33-AC71-40B0-9057-809C8EEE241E}|BartinGorselMaui\\BartinGorselMaui.csproj|solutionrelative:bartingorselmaui\\views\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DB75D33-AC71-40B0-9057-809C8EEE241E}|BartinGorselMaui\\BartinGorselMaui.csproj|c:\\users\\hp\\onedrive\\documents\\my maui app\\bartingorselmaui\\bartingorselmaui\\views\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DB75D33-AC71-40B0-9057-809C8EEE241E}|BartinGorselMaui\\BartinGorselMaui.csproj|solutionrelative:bartingorselmaui\\views\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DB75D33-AC71-40B0-9057-809C8EEE241E}|BartinGorselMaui\\BartinGorselMaui.csproj|c:\\users\\hp\\onedrive\\documents\\my maui app\\bartingorselmaui\\bartingorselmaui\\views\\newsdetailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0DB75D33-AC71-40B0-9057-809C8EEE241E}|BartinGorselMaui\\BartinGorselMaui.csproj|solutionrelative:bartingorselmaui\\views\\newsdetailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DB75D33-AC71-40B0-9057-809C8EEE241E}|BartinGorselMaui\\BartinGorselMaui.csproj|c:\\users\\hp\\onedrive\\documents\\my maui app\\bartingorselmaui\\bartingorselmaui\\views\\kategoripage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0DB75D33-AC71-40B0-9057-809C8EEE241E}|BartinGorselMaui\\BartinGorselMaui.csproj|solutionrelative:bartingorselmaui\\views\\kategoripage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DB75D33-AC71-40B0-9057-809C8EEE241E}|BartinGorselMaui\\BartinGorselMaui.csproj|c:\\users\\hp\\onedrive\\documents\\my maui app\\bartingorselmaui\\bartingorselmaui\\views\\settingspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DB75D33-AC71-40B0-9057-809C8EEE241E}|BartinGorselMaui\\BartinGorselMaui.csproj|solutionrelative:bartingorselmaui\\views\\settingspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DB75D33-AC71-40B0-9057-809C8EEE241E}|BartinGorselMaui\\BartinGorselMaui.csproj|c:\\users\\hp\\onedrive\\documents\\my maui app\\bartingorselmaui\\bartingorselmaui\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DB75D33-AC71-40B0-9057-809C8EEE241E}|BartinGorselMaui\\BartinGorselMaui.csproj|solutionrelative:bartingorselmaui\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DB75D33-AC71-40B0-9057-809C8EEE241E}|BartinGorselMaui\\BartinGorselMaui.csproj|c:\\users\\hp\\onedrive\\documents\\my maui app\\bartingorselmaui\\bartingorselmaui\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0DB75D33-AC71-40B0-9057-809C8EEE241E}|BartinGorselMaui\\BartinGorselMaui.csproj|solutionrelative:bartingorselmaui\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DB75D33-AC71-40B0-9057-809C8EEE241E}|BartinGorselMaui\\BartinGorselMaui.csproj|c:\\users\\hp\\onedrive\\documents\\my maui app\\bartingorselmaui\\bartingorselmaui\\views\\todospage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0DB75D33-AC71-40B0-9057-809C8EEE241E}|BartinGorselMaui\\BartinGorselMaui.csproj|solutionrelative:bartingorselmaui\\views\\todospage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DB75D33-AC71-40B0-9057-809C8EEE241E}|BartinGorselMaui\\BartinGorselMaui.csproj|c:\\users\\hp\\onedrive\\documents\\my maui app\\bartingorselmaui\\bartingorselmaui\\views\\newsdetailpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DB75D33-AC71-40B0-9057-809C8EEE241E}|BartinGorselMaui\\BartinGorselMaui.csproj|solutionrelative:bartingorselmaui\\views\\newsdetailpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DB75D33-AC71-40B0-9057-809C8EEE241E}|BartinGorselMaui\\BartinGorselMaui.csproj|c:\\users\\hp\\onedrive\\documents\\my maui app\\bartingorselmaui\\bartingorselmaui\\views\\newspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DB75D33-AC71-40B0-9057-809C8EEE241E}|BartinGorselMaui\\BartinGorselMaui.csproj|solutionrelative:bartingorselmaui\\views\\newspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DB75D33-AC71-40B0-9057-809C8EEE241E}|BartinGorselMaui\\BartinGorselMaui.csproj|c:\\users\\hp\\onedrive\\documents\\my maui app\\bartingorselmaui\\bartingorselmaui\\views\\todospage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DB75D33-AC71-40B0-9057-809C8EEE241E}|BartinGorselMaui\\BartinGorselMaui.csproj|solutionrelative:bartingorselmaui\\views\\todospage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DB75D33-AC71-40B0-9057-809C8EEE241E}|BartinGorselMaui\\BartinGorselMaui.csproj|c:\\users\\hp\\onedrive\\documents\\my maui app\\bartingorselmaui\\bartingorselmaui\\model\\todoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DB75D33-AC71-40B0-9057-809C8EEE241E}|BartinGorselMaui\\BartinGorselMaui.csproj|solutionrelative:bartingorselmaui\\model\\todoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DB75D33-AC71-40B0-9057-809C8EEE241E}|BartinGorselMaui\\BartinGorselMaui.csproj|c:\\users\\hp\\onedrive\\documents\\my maui app\\bartingorselmaui\\bartingorselmaui\\model\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DB75D33-AC71-40B0-9057-809C8EEE241E}|BartinGorselMaui\\BartinGorselMaui.csproj|solutionrelative:bartingorselmaui\\model\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DB75D33-AC71-40B0-9057-809C8EEE241E}|BartinGorselMaui\\BartinGorselMaui.csproj|c:\\users\\hp\\onedrive\\documents\\my maui app\\bartingorselmaui\\bartingorselmaui\\views\\kategoripage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DB75D33-AC71-40B0-9057-809C8EEE241E}|BartinGorselMaui\\BartinGorselMaui.csproj|solutionrelative:bartingorselmaui\\views\\kategoripage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DB75D33-AC71-40B0-9057-809C8EEE241E}|BartinGorselMaui\\BartinGorselMaui.csproj|c:\\users\\hp\\onedrive\\documents\\my maui app\\bartingorselmaui\\bartingorselmaui\\model\\sehir.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DB75D33-AC71-40B0-9057-809C8EEE241E}|BartinGorselMaui\\BartinGorselMaui.csproj|solutionrelative:bartingorselmaui\\model\\sehir.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DB75D33-AC71-40B0-9057-809C8EEE241E}|BartinGorselMaui\\BartinGorselMaui.csproj|c:\\users\\hp\\onedrive\\documents\\my maui app\\bartingorselmaui\\bartingorselmaui\\model\\newscategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DB75D33-AC71-40B0-9057-809C8EEE241E}|BartinGorselMaui\\BartinGorselMaui.csproj|solutionrelative:bartingorselmaui\\model\\newscategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DB75D33-AC71-40B0-9057-809C8EEE241E}|BartinGorselMaui\\BartinGorselMaui.csproj|c:\\users\\hp\\onedrive\\documents\\my maui app\\bartingorselmaui\\bartingorselmaui\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DB75D33-AC71-40B0-9057-809C8EEE241E}|BartinGorselMaui\\BartinGorselMaui.csproj|solutionrelative:bartingorselmaui\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DB75D33-AC71-40B0-9057-809C8EEE241E}|BartinGorselMaui\\BartinGorselMaui.csproj|c:\\users\\hp\\onedrive\\documents\\my maui app\\bartingorselmaui\\bartingorselmaui\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0DB75D33-AC71-40B0-9057-809C8EEE241E}|BartinGorselMaui\\BartinGorselMaui.csproj|solutionrelative:bartingorselmaui\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DB75D33-AC71-40B0-9057-809C8EEE241E}|BartinGorselMaui\\BartinGorselMaui.csproj|c:\\users\\hp\\onedrive\\documents\\my maui app\\bartingorselmaui\\bartingorselmaui\\model\\rssmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DB75D33-AC71-40B0-9057-809C8EEE241E}|BartinGorselMaui\\BartinGorselMaui.csproj|solutionrelative:bartingorselmaui\\model\\rssmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DB75D33-AC71-40B0-9057-809C8EEE241E}|BartinGorselMaui\\BartinGorselMaui.csproj|c:\\users\\hp\\onedrive\\documents\\my maui app\\bartingorselmaui\\bartingorselmaui\\model\\root.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DB75D33-AC71-40B0-9057-809C8EEE241E}|BartinGorselMaui\\BartinGorselMaui.csproj|solutionrelative:bartingorselmaui\\model\\root.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DB75D33-AC71-40B0-9057-809C8EEE241E}|BartinGorselMaui\\BartinGorselMaui.csproj|c:\\users\\hp\\onedrive\\documents\\my maui app\\bartingorselmaui\\bartingorselmaui\\bartingorselmaui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0DB75D33-AC71-40B0-9057-809C8EEE241E}|BartinGorselMaui\\BartinGorselMaui.csproj|solutionrelative:bartingorselmaui\\bartingorselmaui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NewsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\MY MAUI APP\\BartinGorselMaui\\BartinGorselMaui\\Views\\NewsPage.xaml",
+              "RelativeDocumentMoniker": "BartinGorselMaui\\Views\\NewsPage.xaml",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Documents\\MY MAUI APP\\BartinGorselMaui\\BartinGorselMaui\\Views\\NewsPage.xaml",
+              "RelativeToolTip": "BartinGorselMaui\\Views\\NewsPage.xaml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-10T10:21:15.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WeatherPage.xaml",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\MY MAUI APP\\BartinGorselMaui\\BartinGorselMaui\\Views\\WeatherPage.xaml",
+              "RelativeDocumentMoniker": "BartinGorselMaui\\Views\\WeatherPage.xaml",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Documents\\MY MAUI APP\\BartinGorselMaui\\BartinGorselMaui\\Views\\WeatherPage.xaml",
+              "RelativeToolTip": "BartinGorselMaui\\Views\\WeatherPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-10T10:22:18.929Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddToDoPage.xaml",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\MY MAUI APP\\BartinGorselMaui\\BartinGorselMaui\\Views\\AddToDoPage.xaml",
+              "RelativeDocumentMoniker": "BartinGorselMaui\\Views\\AddToDoPage.xaml",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Documents\\MY MAUI APP\\BartinGorselMaui\\BartinGorselMaui\\Views\\AddToDoPage.xaml",
+              "RelativeToolTip": "BartinGorselMaui\\Views\\AddToDoPage.xaml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-10T22:24:54.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddToDoPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\MY MAUI APP\\BartinGorselMaui\\BartinGorselMaui\\Views\\AddToDoPage.xaml.cs",
+              "RelativeDocumentMoniker": "BartinGorselMaui\\Views\\AddToDoPage.xaml.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Documents\\MY MAUI APP\\BartinGorselMaui\\BartinGorselMaui\\Views\\AddToDoPage.xaml.cs",
+              "RelativeToolTip": "BartinGorselMaui\\Views\\AddToDoPage.xaml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T22:25:28.501Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SettingsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\MY MAUI APP\\BartinGorselMaui\\BartinGorselMaui\\Views\\SettingsPage.xaml",
+              "RelativeDocumentMoniker": "BartinGorselMaui\\Views\\SettingsPage.xaml",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Documents\\MY MAUI APP\\BartinGorselMaui\\BartinGorselMaui\\Views\\SettingsPage.xaml",
+              "RelativeToolTip": "BartinGorselMaui\\Views\\SettingsPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-10T10:23:29.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CurrenciesPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\MY MAUI APP\\BartinGorselMaui\\BartinGorselMaui\\Views\\CurrenciesPage.xaml.cs",
+              "RelativeDocumentMoniker": "BartinGorselMaui\\Views\\CurrenciesPage.xaml.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Documents\\MY MAUI APP\\BartinGorselMaui\\BartinGorselMaui\\Views\\CurrenciesPage.xaml.cs",
+              "RelativeToolTip": "BartinGorselMaui\\Views\\CurrenciesPage.xaml.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAwwGsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T10:32:49.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CurrenciesPage.xaml",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\MY MAUI APP\\BartinGorselMaui\\BartinGorselMaui\\Views\\CurrenciesPage.xaml",
+              "RelativeDocumentMoniker": "BartinGorselMaui\\Views\\CurrenciesPage.xaml",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Documents\\MY MAUI APP\\BartinGorselMaui\\BartinGorselMaui\\Views\\CurrenciesPage.xaml",
+              "RelativeToolTip": "BartinGorselMaui\\Views\\CurrenciesPage.xaml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAFEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-10T10:20:32.352Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RegisterPage.xaml",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\MY MAUI APP\\BartinGorselMaui\\BartinGorselMaui\\Views\\RegisterPage.xaml",
+              "RelativeDocumentMoniker": "BartinGorselMaui\\Views\\RegisterPage.xaml",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Documents\\MY MAUI APP\\BartinGorselMaui\\BartinGorselMaui\\Views\\RegisterPage.xaml",
+              "RelativeToolTip": "BartinGorselMaui\\Views\\RegisterPage.xaml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-10T12:07:05.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RegisterPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\MY MAUI APP\\BartinGorselMaui\\BartinGorselMaui\\Views\\RegisterPage.xaml.cs",
+              "RelativeDocumentMoniker": "BartinGorselMaui\\Views\\RegisterPage.xaml.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Documents\\MY MAUI APP\\BartinGorselMaui\\BartinGorselMaui\\Views\\RegisterPage.xaml.cs",
+              "RelativeToolTip": "BartinGorselMaui\\Views\\RegisterPage.xaml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T12:09:36.047Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "WeatherPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\MY MAUI APP\\BartinGorselMaui\\BartinGorselMaui\\Views\\WeatherPage.xaml.cs",
+              "RelativeDocumentMoniker": "BartinGorselMaui\\Views\\WeatherPage.xaml.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Documents\\MY MAUI APP\\BartinGorselMaui\\BartinGorselMaui\\Views\\WeatherPage.xaml.cs",
+              "RelativeToolTip": "BartinGorselMaui\\Views\\WeatherPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T10:37:17.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FirebaseServices.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\MY MAUI APP\\BartinGorselMaui\\BartinGorselMaui\\Services\\FirebaseServices.cs",
+              "RelativeDocumentMoniker": "BartinGorselMaui\\Services\\FirebaseServices.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Documents\\MY MAUI APP\\BartinGorselMaui\\BartinGorselMaui\\Services\\FirebaseServices.cs",
+              "RelativeToolTip": "BartinGorselMaui\\Services\\FirebaseServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T22:22:53.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HavaDurumuServisi.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\MY MAUI APP\\BartinGorselMaui\\BartinGorselMaui\\Services\\HavaDurumuServisi.cs",
+              "RelativeDocumentMoniker": "BartinGorselMaui\\Services\\HavaDurumuServisi.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Documents\\MY MAUI APP\\BartinGorselMaui\\BartinGorselMaui\\Services\\HavaDurumuServisi.cs",
+              "RelativeToolTip": "BartinGorselMaui\\Services\\HavaDurumuServisi.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T20:20:23.033Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LoginPage.xaml",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\MY MAUI APP\\BartinGorselMaui\\BartinGorselMaui\\Views\\LoginPage.xaml",
+              "RelativeDocumentMoniker": "BartinGorselMaui\\Views\\LoginPage.xaml",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Documents\\MY MAUI APP\\BartinGorselMaui\\BartinGorselMaui\\Views\\LoginPage.xaml",
+              "RelativeToolTip": "BartinGorselMaui\\Views\\LoginPage.xaml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAABAAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-10T12:06:30.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LoginPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\MY MAUI APP\\BartinGorselMaui\\BartinGorselMaui\\Views\\LoginPage.xaml.cs",
+              "RelativeDocumentMoniker": "BartinGorselMaui\\Views\\LoginPage.xaml.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Documents\\MY MAUI APP\\BartinGorselMaui\\BartinGorselMaui\\Views\\LoginPage.xaml.cs",
+              "RelativeToolTip": "BartinGorselMaui\\Views\\LoginPage.xaml.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowA4AAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T12:08:47.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "NewsServices.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\MY MAUI APP\\BartinGorselMaui\\BartinGorselMaui\\Services\\NewsServices.cs",
+              "RelativeDocumentMoniker": "BartinGorselMaui\\Services\\NewsServices.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Documents\\MY MAUI APP\\BartinGorselMaui\\BartinGorselMaui\\Services\\NewsServices.cs",
+              "RelativeToolTip": "BartinGorselMaui\\Services\\NewsServices.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAQwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T18:23:46.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Constants.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\MY MAUI APP\\BartinGorselMaui\\BartinGorselMaui\\Services\\Constants.cs",
+              "RelativeDocumentMoniker": "BartinGorselMaui\\Services\\Constants.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Documents\\MY MAUI APP\\BartinGorselMaui\\BartinGorselMaui\\Services\\Constants.cs",
+              "RelativeToolTip": "BartinGorselMaui\\Services\\Constants.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T13:08:53.354Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "FirebaseAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\MY MAUI APP\\BartinGorselMaui\\BartinGorselMaui\\Services\\Auth\\FirebaseAuthService.cs",
+              "RelativeDocumentMoniker": "BartinGorselMaui\\Services\\Auth\\FirebaseAuthService.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Documents\\MY MAUI APP\\BartinGorselMaui\\BartinGorselMaui\\Services\\Auth\\FirebaseAuthService.cs",
+              "RelativeToolTip": "BartinGorselMaui\\Services\\Auth\\FirebaseAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T13:10:22.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "HomePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\MY MAUI APP\\BartinGorselMaui\\BartinGorselMaui\\Views\\HomePage.xaml.cs",
+              "RelativeDocumentMoniker": "BartinGorselMaui\\Views\\HomePage.xaml.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Documents\\MY MAUI APP\\BartinGorselMaui\\BartinGorselMaui\\Views\\HomePage.xaml.cs",
+              "RelativeToolTip": "BartinGorselMaui\\Views\\HomePage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T10:20:06.888Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "HomePage.xaml",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\MY MAUI APP\\BartinGorselMaui\\BartinGorselMaui\\Views\\HomePage.xaml",
+              "RelativeDocumentMoniker": "BartinGorselMaui\\Views\\HomePage.xaml",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Documents\\MY MAUI APP\\BartinGorselMaui\\BartinGorselMaui\\Views\\HomePage.xaml",
+              "RelativeToolTip": "BartinGorselMaui\\Views\\HomePage.xaml",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAqwGAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-10T10:19:29.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "KategoriPage.xaml",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\MY MAUI APP\\BartinGorselMaui\\BartinGorselMaui\\Views\\KategoriPage.xaml",
+              "RelativeDocumentMoniker": "BartinGorselMaui\\Views\\KategoriPage.xaml",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Documents\\MY MAUI APP\\BartinGorselMaui\\BartinGorselMaui\\Views\\KategoriPage.xaml",
+              "RelativeToolTip": "BartinGorselMaui\\Views\\KategoriPage.xaml",
+              "ViewState": "AgIAAAcAAAAAAAAAAADwvyEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-10T18:37:46.77Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "NewsDetailPage.xaml",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\MY MAUI APP\\BartinGorselMaui\\BartinGorselMaui\\Views\\NewsDetailPage.xaml",
+              "RelativeDocumentMoniker": "BartinGorselMaui\\Views\\NewsDetailPage.xaml",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Documents\\MY MAUI APP\\BartinGorselMaui\\BartinGorselMaui\\Views\\NewsDetailPage.xaml",
+              "RelativeToolTip": "BartinGorselMaui\\Views\\NewsDetailPage.xaml",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAIwCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-10T13:48:47.727Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "SettingsPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\MY MAUI APP\\BartinGorselMaui\\BartinGorselMaui\\Views\\SettingsPage.xaml.cs",
+              "RelativeDocumentMoniker": "BartinGorselMaui\\Views\\SettingsPage.xaml.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Documents\\MY MAUI APP\\BartinGorselMaui\\BartinGorselMaui\\Views\\SettingsPage.xaml.cs",
+              "RelativeToolTip": "BartinGorselMaui\\Views\\SettingsPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T10:36:43.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\MY MAUI APP\\BartinGorselMaui\\BartinGorselMaui\\App.xaml.cs",
+              "RelativeDocumentMoniker": "BartinGorselMaui\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Documents\\MY MAUI APP\\BartinGorselMaui\\BartinGorselMaui\\App.xaml.cs",
+              "RelativeToolTip": "BartinGorselMaui\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T10:18:12.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\MY MAUI APP\\BartinGorselMaui\\BartinGorselMaui\\App.xaml",
+              "RelativeDocumentMoniker": "BartinGorselMaui\\App.xaml",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Documents\\MY MAUI APP\\BartinGorselMaui\\BartinGorselMaui\\App.xaml",
+              "RelativeToolTip": "BartinGorselMaui\\App.xaml",
+              "ViewState": "AgIAABkAAAAAAAAAAAAqwDkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-10T10:13:46.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "TodosPage.xaml",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\MY MAUI APP\\BartinGorselMaui\\BartinGorselMaui\\Views\\TodosPage.xaml",
+              "RelativeDocumentMoniker": "BartinGorselMaui\\Views\\TodosPage.xaml",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Documents\\MY MAUI APP\\BartinGorselMaui\\BartinGorselMaui\\Views\\TodosPage.xaml",
+              "RelativeToolTip": "BartinGorselMaui\\Views\\TodosPage.xaml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAqwDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-10T10:22:52.504Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "NewsPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\MY MAUI APP\\BartinGorselMaui\\BartinGorselMaui\\Views\\NewsPage.xaml.cs",
+              "RelativeDocumentMoniker": "BartinGorselMaui\\Views\\NewsPage.xaml.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Documents\\MY MAUI APP\\BartinGorselMaui\\BartinGorselMaui\\Views\\NewsPage.xaml.cs",
+              "RelativeToolTip": "BartinGorselMaui\\Views\\NewsPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T10:30:08.708Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "NewsDetailPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\MY MAUI APP\\BartinGorselMaui\\BartinGorselMaui\\Views\\NewsDetailPage.xaml.cs",
+              "RelativeDocumentMoniker": "BartinGorselMaui\\Views\\NewsDetailPage.xaml.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Documents\\MY MAUI APP\\BartinGorselMaui\\BartinGorselMaui\\Views\\NewsDetailPage.xaml.cs",
+              "RelativeToolTip": "BartinGorselMaui\\Views\\NewsDetailPage.xaml.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T13:49:16.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "TodosPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\MY MAUI APP\\BartinGorselMaui\\BartinGorselMaui\\Views\\TodosPage.xaml.cs",
+              "RelativeDocumentMoniker": "BartinGorselMaui\\Views\\TodosPage.xaml.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Documents\\MY MAUI APP\\BartinGorselMaui\\BartinGorselMaui\\Views\\TodosPage.xaml.cs",
+              "RelativeToolTip": "BartinGorselMaui\\Views\\TodosPage.xaml.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAqwD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T10:37:04.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ToDoItem.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\MY MAUI APP\\BartinGorselMaui\\BartinGorselMaui\\Model\\ToDoItem.cs",
+              "RelativeDocumentMoniker": "BartinGorselMaui\\Model\\ToDoItem.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Documents\\MY MAUI APP\\BartinGorselMaui\\BartinGorselMaui\\Model\\ToDoItem.cs",
+              "RelativeToolTip": "BartinGorselMaui\\Model\\ToDoItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T22:22:07.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Item.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\MY MAUI APP\\BartinGorselMaui\\BartinGorselMaui\\Model\\Item.cs",
+              "RelativeDocumentMoniker": "BartinGorselMaui\\Model\\Item.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Documents\\MY MAUI APP\\BartinGorselMaui\\BartinGorselMaui\\Model\\Item.cs",
+              "RelativeToolTip": "BartinGorselMaui\\Model\\Item.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T18:21:59.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "KategoriPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\MY MAUI APP\\BartinGorselMaui\\BartinGorselMaui\\Views\\KategoriPage.xaml.cs",
+              "RelativeDocumentMoniker": "BartinGorselMaui\\Views\\KategoriPage.xaml.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Documents\\MY MAUI APP\\BartinGorselMaui\\BartinGorselMaui\\Views\\KategoriPage.xaml.cs",
+              "RelativeToolTip": "BartinGorselMaui\\Views\\KategoriPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T18:39:02.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Sehir.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\MY MAUI APP\\BartinGorselMaui\\BartinGorselMaui\\Model\\Sehir.cs",
+              "RelativeDocumentMoniker": "BartinGorselMaui\\Model\\Sehir.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Documents\\MY MAUI APP\\BartinGorselMaui\\BartinGorselMaui\\Model\\Sehir.cs",
+              "RelativeToolTip": "BartinGorselMaui\\Model\\Sehir.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T20:20:00.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "NewsCategory.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\MY MAUI APP\\BartinGorselMaui\\BartinGorselMaui\\Model\\NewsCategory.cs",
+              "RelativeDocumentMoniker": "BartinGorselMaui\\Model\\NewsCategory.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Documents\\MY MAUI APP\\BartinGorselMaui\\BartinGorselMaui\\Model\\NewsCategory.cs",
+              "RelativeToolTip": "BartinGorselMaui\\Model\\NewsCategory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T18:22:21.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\MY MAUI APP\\BartinGorselMaui\\BartinGorselMaui\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "BartinGorselMaui\\AppShell.xaml.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Documents\\MY MAUI APP\\BartinGorselMaui\\BartinGorselMaui\\AppShell.xaml.cs",
+              "RelativeToolTip": "BartinGorselMaui\\AppShell.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T10:18:49.708Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\MY MAUI APP\\BartinGorselMaui\\BartinGorselMaui\\AppShell.xaml",
+              "RelativeDocumentMoniker": "BartinGorselMaui\\AppShell.xaml",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Documents\\MY MAUI APP\\BartinGorselMaui\\BartinGorselMaui\\AppShell.xaml",
+              "RelativeToolTip": "BartinGorselMaui\\AppShell.xaml",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAIwCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-10T10:13:48.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "RssModel.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\MY MAUI APP\\BartinGorselMaui\\BartinGorselMaui\\Model\\RssModel.cs",
+              "RelativeDocumentMoniker": "BartinGorselMaui\\Model\\RssModel.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Documents\\MY MAUI APP\\BartinGorselMaui\\BartinGorselMaui\\Model\\RssModel.cs",
+              "RelativeToolTip": "BartinGorselMaui\\Model\\RssModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T18:23:15.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Root.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\MY MAUI APP\\BartinGorselMaui\\BartinGorselMaui\\Model\\Root.cs",
+              "RelativeDocumentMoniker": "BartinGorselMaui\\Model\\Root.cs",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Documents\\MY MAUI APP\\BartinGorselMaui\\BartinGorselMaui\\Model\\Root.cs",
+              "RelativeToolTip": "BartinGorselMaui\\Model\\Root.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T18:22:56.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "BartinGorselMaui.csproj",
+              "DocumentMoniker": "C:\\Users\\hp\\OneDrive\\Documents\\MY MAUI APP\\BartinGorselMaui\\BartinGorselMaui\\BartinGorselMaui.csproj",
+              "RelativeDocumentMoniker": "BartinGorselMaui\\BartinGorselMaui.csproj",
+              "ToolTip": "C:\\Users\\hp\\OneDrive\\Documents\\MY MAUI APP\\BartinGorselMaui\\BartinGorselMaui\\BartinGorselMaui.csproj",
+              "RelativeToolTip": "BartinGorselMaui\\BartinGorselMaui.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-10T10:13:57.464Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

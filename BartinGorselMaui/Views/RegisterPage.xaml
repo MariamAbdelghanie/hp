@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BartinGorselMaui.Views.RegisterPage"
+             Title="Kaydol"
+             BackgroundColor="#FDEFF4">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="24" Spacing="20">
+
+            <!-- Başlık -->
+            <Label Text="Yeni Hesap Oluştur"
+                   FontSize="24"
+                   FontAttributes="Bold"
+                   TextColor="#D94F8A"
+                   HorizontalTextAlignment="Center"/>
+
+            <Frame CornerRadius="20"
+                   Padding="20"
+                   HasShadow="True">
+
+                <VerticalStackLayout Spacing="14">
+
+                    <!-- Kullanıcı Adı (sadece görsel, kaydedilmeyecek) -->
+                    <Label Text="Kullanıcı Adı" FontSize="14" TextColor="#555"/>
+                    <Entry x:Name="LoginNameEntry" Placeholder="Kullanıcı adınızı girin" />
+
+                    <!-- Email -->
+                    <Label Text="Email" FontSize="14" TextColor="#555"/>
+                    <Entry x:Name="EmailEntry" Placeholder="Email adresinizi girin" Keyboard="Email" />
+
+                    <!-- Parola -->
+                    <Label Text="Parola" FontSize="14" TextColor="#555"/>
+                    <Entry x:Name="PasswordEntry" Placeholder="Parola oluşturun" IsPassword="True" />
+
+                    <!-- Kaydol butonu -->
+                    <Button Text="Kaydol"
+                            BackgroundColor="#D94F8A"
+                            TextColor="White"
+                            CornerRadius="10"
+                            FontAttributes="Bold"
+                            Clicked="OnRegisterClicked" />
+
+                    <!-- Hesabı olanlar için iptal -->
+                    <Button Text="Zaten bir hesabım var"
+                            BackgroundColor="Transparent"
+                            TextColor="#D94F8A"
+                            FontAttributes="Italic"
+                            Clicked="OnCancelClicked" />
+
+                </VerticalStackLayout>
+            </Frame>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
+
+
+

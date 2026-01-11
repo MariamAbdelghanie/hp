@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BartinGorselMaui.Views.AddToDoPage"
+             Title="Görev Detayı"
+             BackgroundColor="{AppThemeBinding Light={StaticResource PageBackgroundColor}, Dark={StaticResource PageBackgroundColorDark}}">
+
+    <VerticalStackLayout Padding="20" Spacing="15">
+
+        <!-- Görev başlığı etiketi -->
+        <Label Text="Başlık" FontAttributes="Bold"
+               TextColor="{AppThemeBinding Light={StaticResource TextColor}, Dark={StaticResource TextColorDark}}"/>
+        <!-- Görev başlığı giriş kutusu -->
+        <Entry Text="{Binding Title}" Placeholder="Görev başlığı giriniz"
+               TextColor="{AppThemeBinding Light={StaticResource TextColor}, Dark={StaticResource TextColorDark}}"
+               BackgroundColor="{AppThemeBinding Light={StaticResource EntryBackground}, Dark={StaticResource EntryBackgroundDark}}"/>
+
+        <!-- Görev detayı etiketi -->
+        <Label Text="Detay" FontAttributes="Bold"
+               TextColor="{AppThemeBinding Light={StaticResource TextColor}, Dark={StaticResource TextColorDark}}"/>
+        <!-- Görev detayı giriş kutusu -->
+        <Entry Text="{Binding Description}" Placeholder="Görev detayı giriniz"
+               TextColor="{AppThemeBinding Light={StaticResource TextColor}, Dark={StaticResource TextColorDark}}"
+               BackgroundColor="{AppThemeBinding Light={StaticResource EntryBackground}, Dark={StaticResource EntryBackgroundDark}}"/>
+
+        <!-- Tarih ve saat seçimi -->
+        <Label Text="Tarih ve Saat" FontAttributes="Bold"
+               TextColor="{AppThemeBinding Light={StaticResource TextColor}, Dark={StaticResource TextColorDark}}"/>
+        <HorizontalStackLayout Spacing="10">
+            <DatePicker Date="{Binding Date}" />
+            <TimePicker Time="{Binding Date, Mode=TwoWay}" />
+        </HorizontalStackLayout>
+
+        <!-- Tamamlandı mı? -->
+        <HorizontalStackLayout Spacing="10">
+            <Label Text="Tamamlandı mı?" FontAttributes="Bold"
+                   TextColor="{AppThemeBinding Light={StaticResource TextColor}, Dark={StaticResource TextColorDark}}"/>
+            <CheckBox IsChecked="{Binding IsCompleted}" />
+        </HorizontalStackLayout>
+
+        <!-- Kaydet butonu -->
+        <Button Text="Kaydet"
+                BackgroundColor="{AppThemeBinding Light={StaticResource ButtonBackground}, Dark={StaticResource ButtonBackgroundDark}}"
+                TextColor="{AppThemeBinding Light={StaticResource TextColor}, Dark={StaticResource TextColorDark}}"
+                Clicked="OnSaveClicked"/>
+    </VerticalStackLayout>
+</ContentPage>
+
+
+
+
+
+

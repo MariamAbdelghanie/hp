@@ -1,0 +1,40 @@
+<Shell xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       xmlns:views="clr-namespace:BartinGorselMaui.Views"
+       x:Class="BartinGorselMaui.AppShell"
+       FlyoutBehavior="Flyout">
+
+    <!-- Giriş -->
+    <FlyoutItem Title="Giriş" Icon="icon_home.png" Route="giris">
+        <ShellContent ContentTemplate="{DataTemplate views:HomePage}" />
+    </FlyoutItem>
+
+    <!-- Kurlar -->
+    <FlyoutItem Title="Kurlar" Icon="icon_currency.png" Route="kurlar">
+        <ShellContent ContentTemplate="{DataTemplate views:CurrenciesPage}" />
+    </FlyoutItem>
+
+    <!-- Haberler (Kategori seçimi üzerinden) -->
+    <FlyoutItem Title="Haberler" Icon="icon_news.png" Route="haberler">
+        <ShellContent ContentTemplate="{DataTemplate views:KategoriPage}" />
+    </FlyoutItem>
+
+    <!-- Hava Durumu -->
+    <FlyoutItem Title="Hava Durumu" Icon="icon_weather.png" Route="hava">
+        <ShellContent ContentTemplate="{DataTemplate views:WeatherPage}" />
+    </FlyoutItem>
+
+    <!-- Yapılacaklar -->
+    <FlyoutItem Title="Yapılacaklar" Icon="icon_todo.png" Route="todo">
+        <ShellContent ContentTemplate="{DataTemplate views:TodosPage}" />
+    </FlyoutItem>
+
+    <!-- Ayarlar -->
+    <FlyoutItem Title="Ayarlar" Icon="icon_settings.png" Route="ayarlar">
+        <ShellContent ContentTemplate="{DataTemplate views:SettingsPage}" />
+    </FlyoutItem>
+
+</Shell>
+
+
+

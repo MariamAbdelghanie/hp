@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BartinGorselMaui.Views.WeatherPage"
+             Title="Hava Durumu"
+             Loaded="ContentPage_Loaded"
+             Unloaded="ContentPage_Unloaded"
+             BackgroundColor="{AppThemeBinding Light={StaticResource PageBackgroundColor}, Dark={StaticResource PageBackgroundColorDark}}">
+
+    <!-- Üst menüde şehir ekleme butonu -->
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="➕" Clicked="AddSehir_Clicked" />
+    </ContentPage.ToolbarItems>
+
+    <!-- Şehir listesi -->
+    <CollectionView x:Name="lstSehirler" Margin="10">
+        <CollectionView.ItemTemplate>
+            <DataTemplate>
+                <Border Margin="10"
+                        BackgroundColor="{AppThemeBinding Light=White, Dark={StaticResource PageBackgroundColorDark}}"
+                        StrokeShape="RoundRectangle 10">
+                    <VerticalStackLayout>
+                        <!-- Şehir adı -->
+                        <Label Text="{Binding SehirAdi}" HorizontalOptions="Center" FontAttributes="Bold"
+                               TextColor="{AppThemeBinding Light={StaticResource TextColor}, Dark={StaticResource TextColorDark}}"/>
+
+                        <!-- Anlık ve 5 günlük tahmin -->
+                        <Grid RowDefinitions="Auto,Auto"
+                              ColumnDefinitions="*,2.5*,Auto,Auto"
+                              ColumnSpacing="10" Margin="10">
+                            <Button Text="🔄" Grid.Column="2" CommandParameter="{Binding}" Clicked="Update_Clicked"
+                                    BackgroundColor="{AppThemeBinding Light=Transparent, Dark={StaticResource ButtonBackgroundDark}}"
+                                    TextColor="{AppThemeBinding Light={StaticResource TextColor}, Dark={StaticResource TextColorDark}}"/>
+                            <Button Text="❌" Grid.Column="3" CommandParameter="{Binding}" Clicked="Remove_Clicked"
+                                    BackgroundColor="{AppThemeBinding Light=Transparent, Dark={StaticResource ButtonBackgroundDark}}"
+                                    TextColor="{AppThemeBinding Light={StaticResource TextColor}, Dark={StaticResource TextColorDark}}"/>
+                            <Label Text="Anlık Durum" Grid.Row="0" Grid.Column="0" HorizontalOptions="Center"
+                                   TextColor="{AppThemeBinding Light={StaticResource TextColor}, Dark={StaticResource TextColorDark}}"/>
+                            <Label Text="5 Günlük Tahmin" Grid.Row="0" Grid.Column="1" HorizontalOptions="Center"
+                                   TextColor="{AppThemeBinding Light={StaticResource TextColor}, Dark={StaticResource TextColorDark}}"/>
+                            <WebView Grid.Row="1" Source="{Binding BugunUrl}" HeightRequest="120"/>
+                            <WebView Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="3" Source="{Binding BesGunUrl}" HeightRequest="120"/>
+                        </Grid>
+                    </VerticalStackLayout>
+                </Border>
+            </DataTemplate>
+        </CollectionView.ItemTemplate>
+    </CollectionView>
+</ContentPage>
+
+
+

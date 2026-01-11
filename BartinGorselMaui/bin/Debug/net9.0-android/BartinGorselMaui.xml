@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BartinGorselMaui</name>
+    </assembly>
+    <members>
+        <member name="T:BartinGorselMaui.Services.Auth.FirebaseAuthService">
+            <summary>
+            Firebase Authentication işlemlerini yöneten servis sınıfı
+            (Kayıt olma ve giriş yapma)
+            </summary>
+        </member>
+        <member name="M:BartinGorselMaui.Services.Auth.FirebaseAuthService.#ctor">
+            <summary>
+            Firebase yapılandırmasının yapıldığı constructor
+            </summary>
+        </member>
+        <member name="M:BartinGorselMaui.Services.Auth.FirebaseAuthService.RegisterAsync(System.String,System.String,System.String)">
+            <summary>
+            Yeni kullanıcı kaydı (Email + Parola)
+            </summary>
+            <param name="adSoyad">Kullanıcının adı ve soyadı</param>
+            <param name="email">Email adresi</param>
+            <param name="parola">Parola</param>
+            <returns>Kayıt sonucu ve mesaj</returns>
+        </member>
+        <member name="M:BartinGorselMaui.Services.Auth.FirebaseAuthService.LoginAsync(System.String,System.String)">
+            <summary>
+            Kullanıcı girişi (Email + Parola)
+            </summary>
+            <param name="email">Email adresi</param>
+            <param name="parola">Parola</param>
+            <returns>Giriş sonucu ve mesaj</returns>
+        </member>
+        <member name="T:BartinGorselMaui.Views.HomePage">
+            <summary>
+            HomePage için code-behind sınıfı
+            </summary>
+        </member>
+        <member name="M:BartinGorselMaui.Views.HomePage.#ctor">
+            <summary>
+            Sayfa başlatıcı (constructor)
+            </summary>
+        </member>
+        <member name="T:BartinGorselMaui.Resource">
+            <summary>
+            Android Resource Designer class.
+            Exposes the Android Resource designer assembly into the project Namespace.
+            </summary>
+        </member>
+    </members>
+</doc>

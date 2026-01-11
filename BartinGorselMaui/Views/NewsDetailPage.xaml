@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BartinGorselMaui.Views.NewsDetailPage"
+             Title="Haber Detayı"
+             BackgroundColor="{AppThemeBinding Light={StaticResource PageBackgroundColor}, Dark={StaticResource PageBackgroundColorDark}}">
+
+    <VerticalStackLayout Padding="10" Spacing="10">
+
+        <!-- Üstte küçük butonlar -->
+        <HorizontalStackLayout HorizontalOptions="End" Spacing="10">
+            <Button Text="Paylaş"
+                    FontSize="12"
+                    Padding="5"
+                    BackgroundColor="{AppThemeBinding Light=Gray, Dark={StaticResource ButtonBackgroundDark}}"
+                    TextColor="{AppThemeBinding Light=White, Dark={StaticResource TextColorDark}}"
+                    Clicked="OnShareClicked"/>
+
+            <Button Text="Geri Dön"
+                    FontSize="12"
+                    Padding="5"
+                    BackgroundColor="{AppThemeBinding Light=#D94F8A, Dark={StaticResource ButtonBackgroundDark}}"
+                    TextColor="{AppThemeBinding Light=White, Dark={StaticResource TextColorDark}}"
+                    Clicked="OnBackClicked"/>
+        </HorizontalStackLayout>
+
+        <!-- Haber başlığı -->
+        <Label x:Name="TitleLabel"
+               FontSize="20"
+               FontAttributes="Bold"
+               TextColor="{AppThemeBinding Light=Gray, Dark={StaticResource TextColorDark}}"
+               HorizontalTextAlignment="Center"/>
+
+        <!-- Haber içeriği -->
+        <WebView x:Name="NewsWebView"
+                 HeightRequest="500"
+                 HorizontalOptions="Fill"
+                 VerticalOptions="FillAndExpand"/>
+    </VerticalStackLayout>
+</ContentPage>
+
+
+
+
+
+

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BartinGorselMaui.Views.LoginPage"
+             Title="Oturum Aç"
+             BackgroundColor="#FDEFF4">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="24" Spacing="20">
+
+            <Label Text="Hoş Geldiniz"
+             FontSize="24"
+             FontAttributes="Bold"
+             TextColor="#D94F8A"
+             HorizontalTextAlignment="Center"/>
+
+            <Frame 
+             CornerRadius="20"
+             Padding="20"
+             HasShadow="True">
+
+                <VerticalStackLayout Spacing="14">
+
+                    <Label Text="Email" FontSize="14" TextColor="#555"/>
+                    <Entry x:Name="EmailEntry"
+                 Placeholder="Email adresinizi girin"
+                 Keyboard="Email" />
+
+                    <Label Text="Parola" FontSize="14" TextColor="#555"/>
+                    <Entry x:Name="PasswordEntry"
+                 Placeholder="Parolanızı girin"
+                 IsPassword="True" />
+
+                    <Button Text="Oturum Aç"
+                  BackgroundColor="#D94F8A"
+                  TextColor="White"
+                  CornerRadius="10"
+                  FontAttributes="Bold"
+                  Clicked="OnLoginClicked" />
+
+                    <Button Text="Hesabım Yok"
+                  BackgroundColor="Transparent"
+                  TextColor="#D94F8A"
+                  FontAttributes="Italic"
+                  Clicked="OnGoRegisterClicked" />
+
+                </VerticalStackLayout>
+            </Frame>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
+

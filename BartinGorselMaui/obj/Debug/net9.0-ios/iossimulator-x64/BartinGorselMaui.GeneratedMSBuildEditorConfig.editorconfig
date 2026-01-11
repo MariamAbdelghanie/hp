@@ -1,0 +1,115 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net9.0-ios
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = BartinGorselMaui
+build_property.ProjectDir = C:\Users\hp\OneDrive\Documents\MY MAUI APP\BartinGorselMaui\BartinGorselMaui\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.EffectiveAnalysisLevelStyle = 9.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/hp/OneDrive/Documents/MY MAUI APP/BartinGorselMaui/BartinGorselMaui/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BartinGorselMaui.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/hp/OneDrive/Documents/MY MAUI APP/BartinGorselMaui/BartinGorselMaui/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BartinGorselMaui.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/hp/OneDrive/Documents/MY MAUI APP/BartinGorselMaui/BartinGorselMaui/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BartinGorselMaui.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/hp/OneDrive/Documents/MY MAUI APP/BartinGorselMaui/BartinGorselMaui/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BartinGorselMaui.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/hp/OneDrive/Documents/MY MAUI APP/BartinGorselMaui/BartinGorselMaui/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BartinGorselMaui.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/hp/OneDrive/Documents/MY MAUI APP/BartinGorselMaui/BartinGorselMaui/Views/AddToDoPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BartinGorselMaui.Views.AddToDoPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\AddToDoPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\AddToDoPage.xaml
+
+[C:/Users/hp/OneDrive/Documents/MY MAUI APP/BartinGorselMaui/BartinGorselMaui/Views/CurrenciesPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BartinGorselMaui.Views.CurrenciesPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\CurrenciesPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\CurrenciesPage.xaml
+
+[C:/Users/hp/OneDrive/Documents/MY MAUI APP/BartinGorselMaui/BartinGorselMaui/Views/HomePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BartinGorselMaui.Views.HomePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\HomePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\HomePage.xaml
+
+[C:/Users/hp/OneDrive/Documents/MY MAUI APP/BartinGorselMaui/BartinGorselMaui/Views/KategoriPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BartinGorselMaui.Views.KategoriPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\KategoriPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\KategoriPage.xaml
+
+[C:/Users/hp/OneDrive/Documents/MY MAUI APP/BartinGorselMaui/BartinGorselMaui/Views/LoginPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BartinGorselMaui.Views.LoginPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\LoginPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\LoginPage.xaml
+
+[C:/Users/hp/OneDrive/Documents/MY MAUI APP/BartinGorselMaui/BartinGorselMaui/Views/NewsDetailPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BartinGorselMaui.Views.NewsDetailPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\NewsDetailPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\NewsDetailPage.xaml
+
+[C:/Users/hp/OneDrive/Documents/MY MAUI APP/BartinGorselMaui/BartinGorselMaui/Views/NewsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BartinGorselMaui.Views.NewsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\NewsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\NewsPage.xaml
+
+[C:/Users/hp/OneDrive/Documents/MY MAUI APP/BartinGorselMaui/BartinGorselMaui/Views/RegisterPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BartinGorselMaui.Views.RegisterPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\RegisterPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\RegisterPage.xaml
+
+[C:/Users/hp/OneDrive/Documents/MY MAUI APP/BartinGorselMaui/BartinGorselMaui/Views/SettingsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BartinGorselMaui.Views.SettingsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\SettingsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\SettingsPage.xaml
+
+[C:/Users/hp/OneDrive/Documents/MY MAUI APP/BartinGorselMaui/BartinGorselMaui/Views/TodosPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BartinGorselMaui.Views.TodosPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\TodosPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\TodosPage.xaml
+
+[C:/Users/hp/OneDrive/Documents/MY MAUI APP/BartinGorselMaui/BartinGorselMaui/Views/WeatherPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BartinGorselMaui.Views.WeatherPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\WeatherPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\WeatherPage.xaml

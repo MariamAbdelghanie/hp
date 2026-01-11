@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BartinGorselMaui.Views.TodosPage"
+             Title="Yapılacaklar"
+             BackgroundColor="{AppThemeBinding Light={StaticResource PageBackgroundColor}, Dark={StaticResource PageBackgroundColorDark}}">
+
+    <VerticalStackLayout Padding="10" Spacing="10">
+
+        <!-- Yeni görev ekleme butonu -->
+        <Button Text="Yeni Görev Ekle"
+                BackgroundColor="{AppThemeBinding Light=HotPink, Dark={StaticResource ButtonBackgroundDark}}"
+                TextColor="{AppThemeBinding Light=White, Dark={StaticResource TextColorDark}}"
+                Clicked="OnAddClicked"/>
+
+        <!-- Görev listesi -->
+        <CollectionView x:Name="ToDoListView" SelectionMode="None">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Frame BorderColor="{AppThemeBinding Light=LightGray, Dark={StaticResource TextColorDark}}"
+                           BackgroundColor="{AppThemeBinding Light=White, Dark={StaticResource PageBackgroundColorDark}}"
+                           CornerRadius="10" Padding="10" Margin="5">
+                        <VerticalStackLayout>
+                            <!-- Başlık -->
+                            <Label Text="{Binding Title}" FontAttributes="Bold" FontSize="18"
+                                   TextColor="{AppThemeBinding Light={StaticResource TextColor}, Dark={StaticResource TextColorDark}}"/>
+                            <!-- Detay -->
+                            <Label Text="{Binding Description}" FontSize="14"
+                                   TextColor="{AppThemeBinding Light={StaticResource TextColor}, Dark={StaticResource TextColorDark}}"/>
+                            <!-- Tarih -->
+                            <Label Text="{Binding Date, StringFormat='Tarih: {0:dd.MM.yyyy HH:mm}'}"
+                                   FontSize="12"
+                                   TextColor="{AppThemeBinding Light=Gray, Dark={StaticResource TextColorDark}}"/>
+
+                            <!-- İşlemler -->
+                            <HorizontalStackLayout Spacing="10">
+                                <Button Text="Düzenle" Clicked="OnEditClicked"
+                                        CommandParameter="{Binding .}" FontSize="12"
+                                        BackgroundColor="{AppThemeBinding Light=Pink, Dark={StaticResource ButtonBackgroundDark}}"
+                                        TextColor="{AppThemeBinding Light={StaticResource TextColor}, Dark={StaticResource TextColorDark}}"/>
+                                <Button Text="Sil" Clicked="OnDeleteClicked"
+                                        CommandParameter="{Binding .}" FontSize="12"
+                                        BackgroundColor="{AppThemeBinding Light=DarkRed, Dark={StaticResource ButtonBackgroundDark}}"
+                                        TextColor="{AppThemeBinding Light=White, Dark={StaticResource TextColorDark}}"/>
+                                <CheckBox IsChecked="{Binding IsCompleted}" />
+                            </HorizontalStackLayout>
+                        </VerticalStackLayout>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </VerticalStackLayout>
+</ContentPage>
+
+
+

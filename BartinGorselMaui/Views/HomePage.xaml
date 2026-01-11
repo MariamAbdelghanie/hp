@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BartinGorselMaui.Views.HomePage"
+             Title="Giriş"
+             BackgroundColor="{AppThemeBinding 
+                 Light={StaticResource PageBackgroundColor}, 
+                 Dark={StaticResource PageBackgroundColorDark}}">
+
+    <!-- Sayfa kaydırılabilir -->
+    <ScrollView>
+        <VerticalStackLayout Padding="24" Spacing="20">
+
+            <!-- Profil Fotoğrafı (Yuvarlak) -->
+            <Frame WidthRequest="220"
+                   HeightRequest="220"
+                   CornerRadius="110"
+                   Padding="0"
+                   HasShadow="True"
+                   HorizontalOptions="Center"
+                   BackgroundColor="{AppThemeBinding 
+                       Light=Gray, 
+                       Dark={StaticResource ButtonBackgroundDark}}">
+
+                <Image Source="profil.jpeg"
+                       Aspect="AspectFill"/>
+            </Frame>
+
+            <!-- Bilgi Kartı -->
+            <Frame Padding="20"
+                   CornerRadius="20"
+                   HasShadow="True"
+                   BorderColor="{AppThemeBinding 
+                       Light=DeepPink, 
+                       Dark={StaticResource ButtonBackgroundDark}}"
+                   BackgroundColor="{AppThemeBinding 
+                       Light=White, 
+                       Dark={StaticResource PageBackgroundColorDark}}">
+
+                <VerticalStackLayout Spacing="12">
+
+                    <!-- Ödev Başlığı -->
+                    <Border BackgroundColor="{AppThemeBinding 
+                                Light=LightPink, 
+                                Dark={StaticResource ButtonBackgroundDark}}"
+                            StrokeShape="RoundRectangle 10">
+
+                        <Label Text="ÖDEV-3"
+                               Padding="10,6"
+                               FontSize="18"
+                               FontAttributes="Bold"
+                               HorizontalTextAlignment="Center"
+                               TextColor="{AppThemeBinding 
+                                   Light=White, 
+                                   Dark={StaticResource TextColorDark}}"/>
+                    </Border>
+
+                    <!-- Kişisel Bilgiler -->
+                    <Label Text="Ad Soyad: Mariam Abdelghanie"
+                           FontSize="20"
+                           FontAttributes="Bold"
+                           TextColor="{AppThemeBinding 
+                               Light=#222, 
+                               Dark={StaticResource TextColorDark}}"/>
+
+                    <Label Text="Numara: 23670310036"
+                           FontSize="16"
+                           TextColor="{AppThemeBinding 
+                               Light=#555, 
+                               Dark={StaticResource TextColorDark}}"/>
+
+                    <Label Text="Bartın Üniversitesi Bilgisayar Mühendisliği"
+                           FontSize="16"
+                           TextColor="{AppThemeBinding 
+                               Light=#555, 
+                               Dark={StaticResource TextColorDark}}"/>
+
+                    <!-- Ayırıcı Çizgi -->
+                    <BoxView HeightRequest="1"
+                             Margin="0,10"
+                             Color="{AppThemeBinding 
+                                 Light=DarkSlateGrey, 
+                                 Dark={StaticResource TextColorDark}}"/>
+
+                    <!-- Açıklama Metni -->
+                    <Label Text="Bu uygulama .NET MAUI ile geliştirilmiş çok sayfalı bir mobil uygulamadır. Oturum açma, kurlar, haberler, hava durumu, yapılacaklar ve ayarlar sayfalarını içerir."
+                           FontSize="14"
+                           TextColor="{AppThemeBinding 
+                               Light=#444, 
+                               Dark={StaticResource TextColorDark}}"/>
+                </VerticalStackLayout>
+            </Frame>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
+
+
+
+
+
+

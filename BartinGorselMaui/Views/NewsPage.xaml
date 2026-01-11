@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BartinGorselMaui.Views.NewsPage"
+             Title="Haberler"
+             BackgroundColor="{AppThemeBinding Light={StaticResource PageBackgroundColor}, Dark={StaticResource PageBackgroundColorDark}}">
+
+    <!-- Ana düzen -->
+    <VerticalStackLayout Padding="10" Spacing="10">
+
+        <!-- Kategori sekmeleri -->
+        <ScrollView Orientation="Horizontal">
+            <HorizontalStackLayout Spacing="10">
+                <Button Text="Gündem" Clicked="OnCategoryClicked"
+                        BackgroundColor="{AppThemeBinding Light=Gray, Dark={StaticResource ButtonBackgroundDark}}"
+                        TextColor="{AppThemeBinding Light=White, Dark={StaticResource TextColorDark}}"/>
+                <Button Text="Ekonomi" Clicked="OnCategoryClicked"
+                        BackgroundColor="{AppThemeBinding Light=Gray, Dark={StaticResource ButtonBackgroundDark}}"
+                        TextColor="{AppThemeBinding Light=White, Dark={StaticResource TextColorDark}}"/>
+                <Button Text="Spor" Clicked="OnCategoryClicked"
+                        BackgroundColor="{AppThemeBinding Light=Gray, Dark={StaticResource ButtonBackgroundDark}}"
+                        TextColor="{AppThemeBinding Light=White, Dark={StaticResource TextColorDark}}"/>
+                <Button Text="Bilim Teknoloji" Clicked="OnCategoryClicked"
+                        BackgroundColor="{AppThemeBinding Light=Gray, Dark={StaticResource ButtonBackgroundDark}}"
+                        TextColor="{AppThemeBinding Light=White, Dark={StaticResource TextColorDark}}"/>
+                <Button Text="Son Dakika" Clicked="OnCategoryClicked"
+                        BackgroundColor="{AppThemeBinding Light=Gray, Dark={StaticResource ButtonBackgroundDark}}"
+                        TextColor="{AppThemeBinding Light=White, Dark={StaticResource TextColorDark}}"/>
+            </HorizontalStackLayout>
+        </ScrollView>
+
+        <!-- Yükleniyor göstergesi -->
+        <ActivityIndicator x:Name="Loader"
+                           IsRunning="False"
+                           IsVisible="False"
+                           Color="{AppThemeBinding Light=DeepPink, Dark={StaticResource TextColorDark}}"
+                           HorizontalOptions="Center"/>
+
+        <!-- Haber listesi -->
+        <CollectionView x:Name="NewsList" SelectionMode="Single" SelectionChanged="OnNewsSelected">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <!-- Haber kartı -->
+                    <Frame Padding="10" Margin="5" CornerRadius="12" HasShadow="True"
+                           BackgroundColor="{AppThemeBinding Light=White, Dark={StaticResource PageBackgroundColorDark}}">
+                        <Grid ColumnDefinitions="120, *" RowDefinitions="Auto, Auto">
+                            <!-- Görsel: thumbnail yoksa noimage.png göster -->
+                            <Image Source="{Binding thumbnail, FallbackValue='noimage.png'}"
+                                   Grid.RowSpan="2" Grid.Column="0"
+                                   Aspect="AspectFill" HeightRequest="120" WidthRequest="120"/>
+
+                            <!-- Başlık -->
+                            <Label Text="{Binding title}" Grid.Column="1" FontAttributes="Bold"
+                                   FontSize="16"
+                                   TextColor="{AppThemeBinding Light=Black, Dark={StaticResource TextColorDark}}"/>
+
+                            <!-- Yayın tarihi -->
+                            <Label Text="{Binding pubDate}" Grid.Column="1" Grid.Row="1"
+                                   FontSize="12"
+                                   TextColor="{AppThemeBinding Light=Gray, Dark={StaticResource TextColorDark}}"/>
+                        </Grid>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </VerticalStackLayout>
+</ContentPage>
+
+
+
+
+
+
+
